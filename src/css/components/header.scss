@@ -1,13 +1,41 @@
 .header {
-    background-color: aquamarine;
-    padding: 20px;
-  
-    .header-logo {
-      // background-color: yellow;
+  border-bottom: solid 1px black;
+  background-color: aquamarine;
+  padding: 0px;
+  font-weight: 700;
+  position: relative;
+
+  .header-logo {
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+  }
+  .header-nav {
+    display: flex;
+    gap: 25px;
+    font-size: 17px;
+    a {
+      display: inline-block;
+      position: relative;
+      color: #0087ca;
+      padding: 20px 0px 20px 0px;
     }
-    .header-nav {
-      display: flex;
-      gap:25px;
-  
+    
+    a:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: -1px;
+      left: 0;
+      background-color: red;
+      transform-origin: bottom right;
+      transition: transform 0.3s ease;
+    }
+    
+    a:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
   }
+}
