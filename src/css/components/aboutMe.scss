@@ -1,7 +1,6 @@
 .about-me-logo {
   background-image: url(../../img/IMG_20210522_184901.jpg);
   height: 100vh;
-  //   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   box-shadow: -1px 0px 6px 4px rgb(0 0 0 / 10%);
@@ -18,6 +17,9 @@
   button {
     width: 130px;
     height: 30px;
+  }
+  .me {
+      color: red;
   }
 }
 
@@ -96,4 +98,29 @@
 .wrapper .linkedin:hover .tooltip::before {
   background-color: #0a66c2;
   color: #ffffff;
+}
+.contact-me-button{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 0px 0px 10px 30px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;;
+}
+
+.contact-me-button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
