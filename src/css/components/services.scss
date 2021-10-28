@@ -1,0 +1,45 @@
+/* Variables */
+$hoverBgColor : #503bff;
+$hoverBgColor2: #8293ff;
+
+
+.services-block {
+    background-color: aquamarine;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    transition: .3s all ease-in-out;
+    box-shadow: 0px 0px 15px background;
+    &:hover{
+      background: linear-gradient(130deg, $hoverBgColor 0%, $hoverBgColor2 100%);
+      box-shadow: none;
+      transform: translate(0, -10px);
+    }
+    .services-logo {
+        background-color: yellow;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    .services-title {
+        background-color: bisque;
+    }
+    .services-paragraph {
+        background-color: cadetblue;
+    }
+}
+
+
+
+
+  .services-block 
+  {
+
+  }
+

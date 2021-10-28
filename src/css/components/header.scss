@@ -1,5 +1,5 @@
 .header {
-  border-bottom: solid 1px black;
+  border-bottom: solid 3px rgba(146, 146, 151, 0.096);
   background-color: aquamarine;
   padding: 0px;
   font-weight: 700;
@@ -25,12 +25,13 @@
       position: absolute;
       width: 100%;
       transform: scaleX(0);
-      height: 2px;
-      bottom: -1px;
+      height: 3px;
+      bottom: -3px;
+      z-index: 100;
       left: 0;
       background-color: red;
       transform-origin: bottom right;
-      transition: transform 0.3s ease;
+      transition: transform 0.3s ease-in-out;
     }
     
     a:hover:after {

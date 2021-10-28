@@ -18,21 +18,21 @@ function AboutMe() {
             optio hic dolore nam necessitatibus non, odit nemo perferendis nisi.
           </p>
           <div className="about-me-icons wrapper">
-        <div class="icon instagram">
-          <div class="tooltip">Instagram</div>
-          <span><i class="fa fa-instagram fa-lg"></i></span>
+        <div className="icon instagram">
+          <div className="tooltip">Instagram</div>
+          <span><i className="fa fa-instagram fa-lg"></i></span>
         </div>
-        <div class="icon github">
-          <div class="tooltip">Github</div>
-          <span><i class="fa fa-github fa-lg"></i></span>
+        <div className="icon github">
+          <div className="tooltip">Github</div>
+          <span><i className="fa fa-github fa-lg"></i></span>
         </div>
-        <div class="icon linkedin">
-          <div class="tooltip">LinkedIn</div>
-          <span><i class="fa fa-linkedin fa-lg"></i></span>
+        <div className="icon linkedin">
+          <div className="tooltip">LinkedIn</div>
+          <span><i className="fa fa-linkedin fa-lg"></i></span>
         </div>
           </div>
           <a href="">
-          <button class="contact-me-button color-9">Contact Me</button>
+          <button className="contact-me-button color-9">Contact Me</button>
           </a>
         </div>
       </div>
